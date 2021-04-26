@@ -1,0 +1,110 @@
+.menu{
+    background-color:green;
+    text-align: center;
+    position:fixed;
+    z-index:2;
+    width:100%;
+}
+body{
+    margin:0px;
+}
+.menu a{
+    color: white;
+    text-decoration:none;
+    padding:5px 10px;
+    display:inline-block;
+}
+.list{
+    background-color:#50a166;
+    padding:35px 0px;
+    
+}
+h3{
+    color:#B51F1F;
+    text-decoration:underline;
+    text-align: center;
+}
+.background{
+    background-image:url(background.jpg);
+    padding:200px 0px;
+    position:relative;
+}
+.listblack{
+    
+}
+
+li{
+    list-style-type:decimal;
+}
+.background h1{
+    font-style:italic;
+    font-size:50px;
+    margin-right:600px;
+    text-align: center;
+}
+.background p{
+    position: absolute;
+    right:30px;
+    bottom:5px;
+}
+.one{
+   font-weight:bold; 
+}
+.two{
+    font-style:italic;
+}
+.list li{
+    margin:10px;
+}
+img{
+    margin:30px;
+}
+.images{
+    padding:50px 80px;
+}
+.red{
+    border:solid;
+    border-color:red;
+    margin-left:90px;
+}
+.blue{
+    border:solid;
+    border-color:blue;
+}
+.green{
+    border:solid;
+    border-color:green;
+    margin-left:90px;
+}
+.yellow{
+    border:solid;
+    border-color:yellow;
+}
+.feedback{
+    background-color:#50a166;
+    padding:30px 0px;
+}
+.feedback form{
+    margin:10px auto;
+    width:500px;
+    border:2px double green;
+    padding:10px;
+    border-radius:8px;
+    text-align: center;
+}
+input, select, textarea{
+    border-radius:8px;
+    border:2px solid #1abc9c;
+    width:300px;
+    padding:15px;
+    margin-top:10px;
+    
+}
+label{
+     display:block;
+    font-size:20px;
+}
+input[type="submit"]{
+    background-color:darkred;
+}
+
